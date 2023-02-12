@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a{
+    color: black;
+    display: block;
+    margin: 1.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+
+
+#first{
+    color: rgb(85, 115, 180);
+    background-color: rgb(208, 208, 208);
+    text-align: center;
+    opacity: 60%;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+.pizza{
+    max-width: 100%;
+}
+
+.titre{
+    position:relative;
+    top: -10rem;
+    width: 100%;
+    z-index:2
+}
+
+#paragraphe{
+    background-color: rgb(85, 112, 180);
+    text-align: center;
+    position: relative;
+    top: -10rem;
+    padding: 8rem;
+    font-size: large;
+    color: white;
+}
+
+#plat{
+    color: rgb(85, 112, 180);
+    text-align: center;
+    position: relative;
+    top: -9rem;
+    padding: 8rem;
+    font-size: large;
+    background-color: white;
+    
+}
+
+.image{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+.image img{
+    max-width: 100%;
+    border: 2px solid white;
+}
+
+
+
+.acces{
+    display: flex;
+    padding: 2.5rem;
+    background-color: rgb(170, 170, 170);
+    opacity: 60%;
+    list-style-type: none;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.acces a{
+    display: block;
+    min-width: 120px;
+    text-decoration: none;
+    transition: all 1s;
+    text-align: center;
+    color: rgb(102, 14, 14);
+    font-size: large;
+}
+
+#position{
+    position:relative;
+    top: -9em;
+    width: 100%;
+    z-index:2
+}
+
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top: -2rem;
+    padding: 3rem;
+    font-size: large;
+    background-color: white;
+}
+
+body{
+    background-color: white;
+}
+
+.starbar{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.starbar:hover{
+    color: rgb(79, 9, 68);
+}
+
+.tableau{
+    column-width: 350px;
+}
